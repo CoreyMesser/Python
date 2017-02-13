@@ -1,5 +1,3 @@
-#word = 'pibble wIbble 3 fIbblEtrIbble'
-
 def remove_vowel():
     word = input("Enter a word: ")
     vowel_l = ['i', 'e', 'a', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
@@ -17,5 +15,4 @@ def remove_vowel():
 
 while True:
     remove_vowel()
-    if remove_vowel == "DONE":
-        break 
+
